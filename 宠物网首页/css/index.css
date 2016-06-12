@@ -81,14 +81,37 @@ ul{
 #content .dom a{
     background-color: #c0392b;
     color: white;
+    display: inline-block;
     width: 170px;
     height: 40px;
     line-height: 40px;
     font-size: 30px;
     text-align: center;
+    text-decoration: none;
 }
 
 #content .dom a:hover{
     background-color: rgb(11,17,15);
 }
+
+#footer {
+    text-align: center;
+}
+
+#footer h2{
+    color: white;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    font-size: 30px;
+}
+
+#footer li{
+    display: inline-block;
+    margin-left: 20px;
+}
+
+#footer li:hover{
+    opacity: 0.6;
+}
+
 
